@@ -72,7 +72,7 @@ body {
   box-sizing: border-box;  /* ensure padding is included in width/height */
   font-family: serif;
   font-size: 6px;
-  line-height: 1.4;
+  line-height: 1.2;
   text-align: justify;
   color: #003049;
   /* Remove or adjust the transform and transition if you want a simple, top-down layout */
