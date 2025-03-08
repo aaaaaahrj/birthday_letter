@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./jquery-3.7.1.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="valentines">
+        <div class="envelope"></div>
+        <div class="front"></div>
+        <div class="card">
+          <div class="text">
+            <p class="dear">Hi Love, <br /></p>
+            <p class="paragraph">
+              Honestly, wala ko kabalo unsay iingon sa imoha. Kabalo na man ka
+              sa tanan and di pud ko kabalo magbuhat ug mga inani haha. But one
+              thing that somehow comes to my mind as I write this letter is that
+              I am really thankful sa imong presence sa akong life. As much as I
+              try to gaslight myself na kaya ra nako iface tanan problema alone,
+              at the end of the day, I still find myself needing you. Not
+              necessarily imong advice or help, but just you being there I can
+              sleep peacefully knowing na there's someone I can trust when
+              people just keep on disappointing me. I can't state enough how
+              happy I am sa state sa atong relationship karon and unta
+              magpadayon hantod sa hantod. Kaon, laag, ang bebetime on repeat.
+              Haha.
+            </p>
+            <p class="paragraph"></p>
+            <div class="signature">
+              Love, <br />
+              Arj
+            </div>
+          </div>
+
+          <!-- <div class="heart"></div> -->
+        </div>
+        <div class="hearts">
+          <div class="one"></div>
+          <div class="two"></div>
+          <div class="three"></div>
+          <div class="four"></div>
+          <div class="five"></div>
+        </div>
+      </div>
+      <div class="shadow"></div>
+    </div>
+
+    <script>
+      $(document).ready(function () {
+        $(".container").hover(
+          function () {
+            $(".card").stop(true).addClass("active");
+          },
+          function () {
+            $(".card").stop(true).removeClass("active");
+          }
+        );
+      });
+    </script>
+  </body>
+</html>
